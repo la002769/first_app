@@ -151,5 +151,6 @@ DEPENDENCIES
   rb-readline
   rspec-rails (= 2.11.0)
   sass-rails (~> 3.2.3)
+  sprockets
   sqlite3 (= 1.3.5)
   uglifier (= 1.2.3)

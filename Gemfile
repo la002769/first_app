@@ -25,6 +25,7 @@ end
 gem 'jquery-rails', '2.0.2'
 gem 'rb-readline'
 gem 'bootstrap-sass', '2.0.4'
+gem 'sprockets'
 
 
 group :test do
