@@ -47,6 +47,10 @@ describe "after saving the user" do
 
 describe "edit" do
     let(:user) { FactoryGirl.create(:user) }
+ before do
+      sign_in user
+      visit edit_user_path(user)
+    end
     before { visit edit_user_path(user) }
 
     describe "page" do
