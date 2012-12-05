@@ -42,15 +42,15 @@ subject { page }
 	                        text: "Ruby on Rails Tutorial Example App | Contact" }
 end
 
-subject { page }
+#subject { page }
 
-	  describe "Signin page" do
-	    before { visit signin_path } 
+#	  describe "Signin page" do
+#	    before { visit signin_path } 
 
-	    it { should have_selector('h1', text: 'Example App') }
-	    it { should have_selector 'title',
-	                        text: "Ruby on Rails Tutorial Example App | Sign in" }
-end
+#	    it { should have_selector('h1', text: 'Example App') }
+#	    it { should have_selector 'title',
+#	                        text: "Ruby on Rails Tutorial Example App | Sign in" }
+#end
 
 #subject { page }
 
