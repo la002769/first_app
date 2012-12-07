@@ -58,13 +58,13 @@ let!(:m1) { FactoryGirl.create(:micropost, user: user, content: "Foo") }
 
     it { should have_selector('h1',    text: user.name) }
     it { should have_selector('title', text: user.name) }
-  end
-
  describe "microposts" do
       it { should have_content(m1.content) }
       it { should have_content(m2.content) }
       it { should have_content(user.microposts.count) }
-    end
+    end 
+ end
+
 
  describe "signup" do
 
